@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sponsors · Hillside</title>
+  <meta name="description" content="The sponsors who made the inaugural Hillside gala possible.">
+  <link rel="stylesheet" href="./colors_and_type.css?v=20260509-6">
+  <link rel="stylesheet" href="site.css?v=20260509-6">
+  <link rel="stylesheet" href="subpage.css?v=20260509-6">
+</head>
+<body class="subpage">
+  <header class="subpage__nav">
+    <a href="index.html" class="subpage__back" aria-label="Back to Hillside">
+      <span aria-hidden="true">←</span> <span>Back</span>
+    </a>
+    <a href="index.html" class="subpage__mark" aria-label="Hillside home">
+      <img src="./assets/logos/hillside-wordmark-white.png" alt="Hillside" />
+    </a>
+    <span class="subpage__crumb">Sponsors</span>
+  </header>
+
+  <main class="subpage__main">
+    <section class="subpage__hero">
+      <div class="container">
+        <span class="label">With gratitude</span>
+        <h1 class="subpage__title">
+          The sponsors<br/>who made it possible.
+        </h1>
+        <p class="subpage__lede">
+          Hillside’s model only works because of the partners who underwrite the room. Their support meant every dollar raised at the inaugural gathering left the building. We owe them a great deal.
+        </p>
+      </div>
+    </section>
+
+    <section class="sponsors">
+      <div class="container">
+        <span class="label sponsors__label">Inaugural · 02 May 2026</span>
+        <ul class="sponsors__list">
+          <li>The Bowery Hotel</li>
+          <li>The Getz Family</li>
+          <li>The Metropolitan Club</li>
+          <li>The Walker Hotel Greenwich Village</li>
+          <li>Round Hill Club</li>
+          <li>Soho Grand</li>
+          <li>Golden Age Hospitality</li>
+          <li>Mill House Oyster Bay Water Sports</li>
+          <li>City Pickle</li>
+          <li>Elbow Room</li>
+          <li>Rikos Pizza</li>
+          <li>Milk Bar</li>
+          <li>Florabrook</li>
+          <li>Luxe Event Rental</li>
+          <li>Dart Collective</li>
+          <li>Ricky Rodriguez</li>
+          <li>JJ Pixx</li>
+          <li>JJ Pixx Photobooth</li>
+          <li>Photos by Chicken</li>
+          <li>Her Name is Mauve</li>
+          <li>Art by Molly Roskin</li>
+          <li>Skye Cap</li>
+          <li>Elinor Wilkinson</li>
+          <li>John Barnes</li>
+          <li>Trey Saleeby</li>
+        </ul>
+
+        <p class="sponsors__note">
+          And a very impactful donation to be announced — stay tuned.
+        </p>
+      </div>
+    </section>
+
+    <section class="sponsors__cta">
+      <div class="container">
+        <h2 class="sponsors__cta-h">Become a sponsor.</h2>
+        <p class="sponsors__cta-body">
+          Sponsorship lets every donor gift reach our partners in full. If you’d like to underwrite a future gathering, we’d love to talk.
+        </p>
+        <a href="mailto:hello@hillside.org" class="btn btn--primary">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <a href="index.html" class="back-fab" id="backFab" aria-label="Back to Hillside">
+    <span aria-hidden="true">←</span> Back to Hillside
+  </a>
+
+  <script>
+    const backFab = document.getElementById('backFab');
+    function checkScroll() {
+      if (window.scrollY > 240) backFab.classList.add('is-visible');
+      else backFab.classList.remove('is-visible');
+    }
+    window.addEventListener('scroll', checkScroll, { passive: true });
+    checkScroll();
+  </script>
+</body>
+</html>

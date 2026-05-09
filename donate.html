@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Make a gift · Hillside</title>
+  <meta name="description" content="Make a gift to Hillside. Every dollar raised is granted in full to our partners.">
+  <link rel="stylesheet" href="./colors_and_type.css?v=20260509-6">
+  <link rel="stylesheet" href="site.css?v=20260509-6">
+  <link rel="stylesheet" href="subpage.css?v=20260509-6">
+</head>
+<body class="subpage subpage--forest">
+  <header class="subpage__nav">
+    <a href="index.html" class="subpage__back" aria-label="Back to Hillside">
+      <span aria-hidden="true">←</span> <span>Back</span>
+    </a>
+    <a href="index.html" class="subpage__mark" aria-label="Hillside home">
+      <img src="./assets/logos/hillside-wordmark-white.png" alt="Hillside" />
+    </a>
+    <span class="subpage__crumb">Make a gift</span>
+  </header>
+
+  <main class="subpage__main">
+    <section class="subpage__hero subpage__hero--forest">
+      <div class="container">
+        <span class="label" style="color: var(--cream);">Make a gift</span>
+        <h1 class="subpage__title">
+          Do the right thing.<br/>100% of proceeds go to charity.
+        </h1>
+        <p class="subpage__lede">
+          Donor gifts are pooled and granted in full to our partners. Operating costs are sponsor-funded — so every dollar raised leaves the building.
+        </p>
+      </div>
+    </section>
+
+    <section class="give">
+      <div class="container give__inner">
+        <div class="give__amounts">
+          <span class="label">Choose an amount</span>
+          <div class="give__chips">
+            <a href="#" class="give__chip">$50</a>
+            <a href="#" class="give__chip">$100</a>
+            <a href="#" class="give__chip">$250</a>
+            <a href="#" class="give__chip">$500</a>
+            <a href="#" class="give__chip give__chip--custom">Other</a>
+          </div>
+          <a href="#" class="give__cta">Continue to checkout <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="give__direct">
+          <span class="label">Other ways to give</span>
+          <ul class="give__list">
+            <li>
+              <strong>Wire or stock transfer.</strong>
+              <span>Email <a href="mailto:hello@hillside.org">hello@hillside.org</a> for instructions.</span>
+            </li>
+            <li>
+              <strong>Donor-advised fund.</strong>
+              <span>Hillside is a 501(c)(3) public charity.</span>
+            </li>
+            <li>
+              <strong>Sponsor a gathering.</strong>
+              <span>Underwrite an event so 100% of donor gifts reach our partners. <a href="mailto:hello@hillside.org">hello@hillside.org</a></span>
+            </li>
+          </ul>
+        </div>
+
+        <p class="give__taxline">
+          Hillside is a 501(c)(3) public charity. Gifts are tax-deductible to the extent allowed by law.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <a href="index.html" class="back-fab" id="backFab" aria-label="Back to Hillside">
+    <span aria-hidden="true">←</span> Back to Hillside
+  </a>
+
+  <script>
+    // Show floating back button after scroll
+    const backFab = document.getElementById('backFab');
+    function checkScroll() {
+      if (window.scrollY > 240) backFab.classList.add('is-visible');
+      else backFab.classList.remove('is-visible');
+    }
+    window.addEventListener('scroll', checkScroll, { passive: true });
+    checkScroll();
+  </script>
+</body>
+</html>
