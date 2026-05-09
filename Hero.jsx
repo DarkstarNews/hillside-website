@@ -4,7 +4,7 @@ function Hero() {
     { src: "./assets/photos/recap-stage.webp",     alt: "The room at Hillside 2026, lit by overhead bokeh.", pos: "center 40%" },
     { src: "./assets/photos/recap-group.webp",     alt: "Friends gathered in formalwear at the inaugural Hillside.", pos: "center 30%" },
     { src: "./assets/photos/recap-stage-night.webp", alt: "A speaker addresses the gathered crowd late in the evening.", pos: "center 50%" },
-    { src: "./assets/photos/recap-glow.webp",      alt: "A guest catches a flash of light, mid-conversation.", pos: "center 35%" },
+    { src: "./assets/photos/recap-color-2.webp", alt: "A guest in a sapphire dress, mid-conversation in the warm light of the room.", pos: "center 30%" },
   ];
   const [active, setActive] = React.useState(0);
 

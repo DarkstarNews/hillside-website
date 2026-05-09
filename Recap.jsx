@@ -26,7 +26,7 @@ function Recap() {
 
         <div className="recap__pair">
           <figure>
-            <img src="./assets/photos/recap-glow.webp" alt="A guest in a sapphire dress catches a flash of light, mid-conversation." loading="lazy" />
+            <img src="./assets/photos/recap-trio.webp" alt="Three guests in formalwear at the inaugural Hillside." loading="lazy" />
           </figure>
           <figure>
             <img src="./assets/photos/recap-terrace.webp" alt="Guests gathered on the terrace under the glass awning." loading="lazy" />
