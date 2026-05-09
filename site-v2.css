@@ -37,7 +37,7 @@ figure { margin: 0; }
 .site-nav--inverse .site-nav__logo { /* white file on dark hero */ }
 .site-nav:not(.site-nav--inverse) .site-nav__logo {
   /* swap to forest-inked wordmark on cream backgrounds */
-  content: url('../../assets/logos/hillside-wordmark-forest.png');
+  content: url('./assets/logos/hillside-wordmark-forest.png');
 }
 
 .site-nav__links {
@@ -212,7 +212,7 @@ figure { margin: 0; }
   }
   .hero .site-nav--inverse .site-nav__logo {
     /* desktop hero: wordmark sits over cream copy column — swap to forest */
-    content: url('../../assets/logos/hillside-wordmark-forest.png');
+    content: url('./assets/logos/hillside-wordmark-forest.png');
   }
   .hero .site-nav--inverse .site-nav__links a { color: var(--forest); }
   .hero .site-nav--inverse .site-nav__cta { background: var(--forest) !important; color: var(--cream) !important; }

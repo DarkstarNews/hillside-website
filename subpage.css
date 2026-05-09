@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px var(--gutter);
+  padding: 14px var(--gutter) 18px;
   background: rgba(244, 239, 230, 0.92);
   backdrop-filter: saturate(140%) blur(10px);
   -webkit-backdrop-filter: saturate(140%) blur(10px);
@@ -34,7 +34,7 @@
   pointer-events: auto;
 }
 @media (min-width: 720px) {
-  .subpage__nav { padding: 18px var(--gutter); }
+  .subpage__nav { padding: 18px var(--gutter) 22px; }
 }
 .subpage--forest .subpage__nav {
   background: rgba(31, 61, 42, 0.92);
