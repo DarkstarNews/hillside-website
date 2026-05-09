@@ -86,7 +86,9 @@
   color: rgba(244, 239, 230, 0.66);
 }
 @media (max-width: 600px) {
+  .subpage__back { display: none; }
   .subpage__crumb { display: none; }
+  .subpage__nav { justify-content: center; }
   .subpage__mark img { height: 20px; }
 }
 
