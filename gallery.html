@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The 2026 Gallery · Hillside</title>
   <meta name="description" content="A gallery from the inaugural Hillside gala — 02 May 2026, The Bowery Hotel.">
-  <link rel="stylesheet" href="./colors_and_type.css?v=20260509-14">
-  <link rel="stylesheet" href="site.css?v=20260509-14">
-  <link rel="stylesheet" href="subpage.css?v=20260509-14">
-  <link rel="stylesheet" href="gallery.css?v=20260509-14">
+  <link rel="stylesheet" href="./colors_and_type.css?v=20260509-15">
+  <link rel="stylesheet" href="site.css?v=20260509-15">
+  <link rel="stylesheet" href="subpage.css?v=20260509-15">
+  <link rel="stylesheet" href="gallery.css?v=20260509-15">
 </head>
 <body class="gallery-page subpage">
   <header class="subpage__nav">
@@ -75,15 +75,10 @@
         img.loading = i < 6 ? 'eager' : 'lazy';
         img.decoding = 'async';
         img.src = './assets/gallery/' + m.thumb;
-        img.alt = m.caption ? m.caption : ('Photograph ' + (i + 1) + ' from the Hillside 2026 gala.');
+        img.alt = 'Photograph ' + (i + 1) + ' from the Hillside 2026 gala.';
         img.width = m.w;
         img.height = m.h;
         fig.appendChild(img);
-        if (m.caption) {
-          const cap = document.createElement('figcaption');
-          cap.textContent = m.caption;
-          fig.appendChild(cap);
-        }
         grid.appendChild(fig);
       });
 
@@ -98,10 +93,7 @@
         const m = manifest[idx];
         lbImg.src = './assets/gallery/' + m.full;
         lbImg.alt = 'Photograph ' + (idx + 1) + ' of ' + manifest.length;
-        const capParts = [(idx + 1) + ' / ' + manifest.length];
-        if (m.caption) capParts.push(m.caption);
-        capParts.push('Photography by Ricky Rodriguez');
-        lbCap.textContent = capParts.join(' · ');
+        lbCap.textContent = (idx + 1) + ' / ' + manifest.length + ' · Photography by Ricky Rodriguez';
         lb.setAttribute('aria-hidden', 'false');
         lb.classList.add('is-open');
         document.body.style.overflow = 'hidden';
