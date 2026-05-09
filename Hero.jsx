@@ -52,7 +52,7 @@ function Hero() {
           Hillside brings people together to support the partners doing the work — beginning with the Tyler G. Foundation.
         </p>
         <div className="hero__ctas">
-          <a href="#chapter-2026" className="btn--quiet hero__quiet">The 2026 chapter <span aria-hidden="true">→</span></a>
+          <a href="#event-2026" className="btn--quiet hero__quiet">The 2026 event <span aria-hidden="true">→</span></a>
         </div>
 
         <div className="hero__meta" aria-hidden="true">

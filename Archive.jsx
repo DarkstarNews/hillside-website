@@ -25,7 +25,7 @@ function Archive() {
       <div className="container archive">
         <div className="archive__head">
           <span className="label">Past galas</span>
-          <h2 className="archive__headline">An annual chapter.</h2>
+          <h2 className="archive__headline">An annual event.</h2>
         </div>
 
         <div className="archive__grid">
@@ -41,7 +41,7 @@ function Archive() {
               <span className="archive__beneficiary">{g.beneficiary}</span>
               <span className="archive__credit">{g.raised}</span>
               <span className="archive__more">
-                {g.forthcoming ? "Save the date" : "View the chapter"} <span aria-hidden="true">→</span>
+                {g.forthcoming ? "Save the date" : "View the event"} <span aria-hidden="true">→</span>
               </span>
             </a>
           ))}

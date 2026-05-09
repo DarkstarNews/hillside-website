@@ -1,8 +1,8 @@
 function Recap() {
   return (
-    <section id="chapter-2026" className="section bg-cream recap" data-screen-label="05 2026 Chapter">
+    <section id="event-2026" className="section bg-cream recap" data-screen-label="05 2026 Event">
       <div className="container recap__head">
-        <span className="label">The 2026 chapter</span>
+        <span className="label">The 2026 event</span>
         <h2 className="recap__headline">
           Three hundred and fifty-five<br/>people, in one room.
         </h2>

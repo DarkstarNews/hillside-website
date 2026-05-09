@@ -16,7 +16,7 @@ function Donate() {
           >
             Make a gift →
           </a>
-          <a href="mailto:hello@hillside.org" className="donate__alt">
+          <a href="mailto:events@hillsidenewyork.com" className="donate__alt">
             Or write to us directly →
           </a>
         </div>

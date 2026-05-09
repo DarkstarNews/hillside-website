@@ -13,11 +13,12 @@ function Footer() {
 
         <div className="site-footer__col">
           <span className="site-footer__label">Contact</span>
-          <a href="mailto:hello@hillside.org">hello@hillside.org</a>
+          <a href="mailto:events@hillsidenewyork.com">events@hillsidenewyork.com</a>
         </div>
 
         <div className="site-footer__col">
           <span className="site-footer__label">Follow</span>
+          <a href="https://instagram.com/hillsidenewyork" target="_blank" rel="noopener">Instagram</a>
           <a href="https://rickyrodriguezphotography.pic-time.com/client/hillside-event--bowery-hotel/gallery" target="_blank" rel="noopener">2026 gallery</a>
         </div>
 
