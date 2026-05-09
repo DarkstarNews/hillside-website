@@ -136,7 +136,7 @@ figure { margin: 0; }
 
 .hero__plate {
   background: var(--cream);
-  padding: 32px 24px 32px;
+  padding: 32px 24px 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -288,9 +288,11 @@ figure { margin: 0; }
 /* ==========================================================================
    About — photo full-bleed on mobile, side-by-side desktop
    ========================================================================== */
+#about.section { padding-top: 0; }
+@media (min-width: 900px) { #about.section { padding-top: 0; } }
 .about__photo {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 .about__photo img {
   width: 100%;
@@ -1325,8 +1327,10 @@ img { transition: opacity 500ms var(--ease); }
   display: flex;
   flex-direction: column;
   gap: 4px;
-  margin-top: 20px;
-  padding-top: 16px;
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding-top: 12px;
+  padding-bottom: 0;
   border-top: 1px solid var(--rule);
 }
 .hero__meta-line {
