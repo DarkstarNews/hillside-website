@@ -1,7 +1,5 @@
 function Hero() {
   const slides = [
-    { src: "./assets/photos/hero-2026.webp",          alt: "A couple dancing under disco-ball reflections at the inaugural Hillside gala.", pos: "center 35%" },
-    { src: "./assets/photos/recap-group.webp",        alt: "Friends gathered in formalwear at the inaugural Hillside.", pos: "center 30%" },
     { src: "./assets/photos/hero-bw-speaker.webp",    alt: "A tuxedoed speaker at the microphone, mid-remark.", pos: "center 28%" },
     { src: "./assets/photos/recap-stage-night.webp",  alt: "A speaker addresses the gathered crowd late in the evening.", pos: "center 22%" },
     { src: "./assets/photos/recap-color-2.webp",      alt: "A guest in a sapphire dress, mid-conversation in the warm light of the room.", pos: "center 30%" },
